@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio by Jeon Do Hun</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="wave">
+        <h1>Hoon's Aquarium</h1>
+      </div>
+      <div class="menu">
+        <button id="homeButton" type="button" onclick="clickhome()">
+          Home
+        </button>
+        <button id="aboutButton" type="button" onclick="clickIntro()">
+          About
+        </button>
+        <button id="projectButton" type="button" onclick="clickProject()">
+          Project
+        </button>
+      </div>
+    </div>
+
+    <div class="mainview">
+      <div id="home">
+        <h2>Under the programming ocean</h2>
+
+        <div class="letter">
+          <div>
+            개발자의 포트폴리오는 각자 입맛에 맞는 아쿠아리움을 꾸미는
+            작업이라고 생각합니다.
+          </div>
+          <div>
+            어항에 다양한 물고기를 채워 넣어 키우듯이, 여러 결과물을 채워 넣을
+            예정입니다.
+          </div>
+          <div>
+            채워 넣은 수족관이 거대한 바다가 보일지, 작은 연못으로 보일지는 알
+            수 없지만
+          </div>
+          <div>
+            적어도 내게는 멋진 아쿠아리움으로 보여질 수 있게 만드는 것이 저의
+            목표입니다.
+          </div>
+        </div>
+      </div>
+
+      <div class="bgbox" id="introduce">
+        <div>이름: 전도훈(Jeon Do Hun)</div>
+        <div>학력: 한국외국어대학교 정보통신공학과 졸업</div>
+        <div>자격증: 정보처리기사(2021. 06)</div>
+        <div>어학: TOEIC 665(2022. 10)</div>
+        <div>
+          코드를 작성한 결과물이 바로 눈 앞에 보이는 것이 신기했고, 다른
+          사람들에게 보여지는 것을 만드는 것에 재미를 느껴 공부하기
+          시작했습니다.
+        </div>
+        <div>저만의 서비스를 운영하는 개발자가 되는 것이 목표입니다.</div>
+        <div>e-mail: wjsehgns11@naver.com</div>
+        <a
+          class="notion"
+          href="https://www.notion.so/71e1f097a8904ddd85ed0171c7f1f96e?pvs=4"
+          target="_blank"
+          >Notion</a
+        >
+        <a class="Github" href="https://github.com/saladlemon" target="_blank"
+          >Github</a
+        >
+      </div>
+
+      <div class="bgbox" id="project">
+        <div id="btnWrap">
+          <button type="button" id="popupBtn">Revel-Up To-do List</button>
+        </div>
+        <div id="modalWrap">
+          <div id="modalContent">
+            <div id="modalBody">
+              <span id="closeBtn">&times;</span>
+
+              <div id="revtitle">Revel-Up To-Do List</div>
+
+              <div class="revSlide">
+                <img src="./img/redtodo2.PNG" />
+              </div>
+
+              <div>Use: HTML, CSS, Javascript</div>
+              <div>Platform: PC</div>
+              <div>
+                Explain: 나의 최애 아이돌이 응원해주는 투두리스트라면 더 잘
+                지켜낼 수 있지 않을까? 라는 생각으로 만들었습니다.
+              </div>
+              <a
+                class="Webpage"
+                href="https://saladlemon.github.io/redvelvetmomentum/"
+                target="_blank"
+                >Webpage</a
+              >
+              <a
+                class="Github"
+                href="https://github.com/saladlemon/redvelvetmomentum"
+                target="_blank"
+              >
+                Github</a
+              >
+              <a
+                class="notion"
+                href="https://www.notion.so/Revel-To-Do-List-03d4b809719143b4b6477cfa935fe961"
+                target="_blank"
+                >Notion</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/buttonClick.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/Slide.js"></script>
+  </body>
+</html>
